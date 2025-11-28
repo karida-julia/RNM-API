@@ -1,5 +1,5 @@
 .title{
-    font-size: 4rem;
+    font-size: 3rem;
     letter-spacing: 3px;
     text-shadow: -2px 2px 8px white;
     text-align: center;
@@ -8,8 +8,8 @@
     width: 100%;
 }
 
-@media(width <= 768px){
+@media(width >= 768px){
     .title{
-        font-size: 3rem;
+        font-size: 4%;
     }
 }

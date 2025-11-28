@@ -10,7 +10,7 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url('/bg.jpg');
+  background-image: url('/bgMobile.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -18,8 +18,8 @@ body{
 }
 
 
-@media (width <= 768px){
+@media (width >= 768px){
   body{
-    background-image: url('/bgMobile.jpeg');
+    background-image: url('/bg.jpg');
   }
 }
